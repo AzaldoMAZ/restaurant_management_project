@@ -610,3 +610,57 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+</head>
+<body>
+    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1 style="font-size: 72px; color: #e74c3c; margin: 0;">404</h1>
+        <h2 style="color: #2c3e50; margin: 20px 0;">Oops! Page Not Found</h2>
+        <p style="font-size: 18px; color: #7f8c8d; margin: 20px 0;">
+            The page you're looking for doesn't exist or has been moved.
+        </p>
+        
+        <div style="margin: 40px 0;">
+            <a href="/" style="
+                background-color: #3498db; 
+                color: white; 
+                padding: 12px 24px; 
+                text-decoration: none; 
+                border-radius: 5px; 
+                font-weight: bold;
+                margin-right: 10px;
+            ">Go Home</a>
+            
+            <a href="javascript:history.back()" style="
+                background-color: #95a5a6; 
+                color: white; 
+                padding: 12px 24px; 
+                text-decoration: none; 
+                border-radius: 5px; 
+                font-weight: bold;
+            ">Go Back</a>
+        </div>
+        
+        <div style="margin-top: 30px;">
+            <h3 style="color: #2c3e50;">What can you do?</h3>
+            <ul style="list-style: none; padding: 0; color: #7f8c8d;">
+                <li>• Check the URL for typing errors</li>
+                <li>• Return to the homepage</li>
+                <li>• Use the navigation menu</li>
+                <li>• Contact support if you need help</li>
+            </ul>
+        </div>
+        
+        <hr style="margin: 40px 0; border: 1px solid #ecf0f1;">
+        
+        <p style="color: #bdc3c7; font-size: 14px;">
+            Error Code: 404 | RestaurantPro Management System
+        </p>
+    </div>
+</body>
+</html>
